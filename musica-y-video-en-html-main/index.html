@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Fuentes externas -->
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<title>Sounflix</title>
+</head>
+<body>
+	<!--Menu principal-->
+	<header>
+		<div class="contenedor">
+			
+			<img  width=200 height="200" src="./img/logo.png">
+			<h2 class="logotipo">SOUNDFLIX</h2>
+			<nav>
+				<ul>
+				  <li><a href="#">Inicio</a></li>
+				  <li><a href="#">Acerca de</a></li>
+				  <li><a href="#">Servicios</a></li>
+				  <li><a href="#">Contacto</a></li>
+				</ul>
+			  </nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="introduccion">
+			<p>Somos apasionados por impulsar el género del trap hacia nuevas alturas. Nos especializamos en ser una plataforma dedicada exclusivamente a la promoción y difusión del talento de cantantes y artistas dentro del vibrante mundo del trap.</p>
+		</div>
+		<div class="espacio">
+		
+		</div>
+			<!--Videos y musicas-->
+		<div class="media contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Artistas:</h3>
+				<div class="indicadores"><button></button></div>
+			</div>
+			<!--Lista de videos-->
+			<div class="contenedor-principal">
+				<!--Boton de izquierda-->
+				<button role="button" id="flecha-izq" class="flecha-izq">
+					<i class="fas fa-angle-left"></i>
+				</button>
+				<!--Carusel-->
+				<div class="contenedor-carusel">
+					<div class="carusel">
+						<!--Link de Videos-->
+						<div class="video">
+							<a href="video1.html"><img width=900 height="400" src="video/bailando-anuel-aa.gif"></a>
+							<h2>Anuel AA</h2>
+						</div>
+
+						<div class="video">
+							<a href="video2.html"><img width=900 height="400" src="video/bryan.gif"></a>
+							<h2>Bryant Myers</h2>
+						</div>
+
+						<div class="video">
+							<a href="video3.html"><img width=900 height="400" src="video/duki.gif"></a>
+							<h2>Duki </h2>
+						</div>
+
+						<div class="video">
+							<a href="video4.html"><img width=900 height="400" src="video/jonz.gif"></a>
+							<h2>Jon Z</h2>
+						</div>
+
+						<div class="video">
+							<a href="video5.html"><img width=900 height="400" src="video/4baby.gif"></a>
+							<h2>Maluma</h2>
+						</div>
+
+						<div class="video">
+							<a href="video6.html"><img width=900 height="400" src="video/jb.gif"></a>
+							<h2>Jbalvin</h2>
+						</div>
+					</div>
+				</div>
+				<!--Boton derecha-->
+				<button role="button" id="flecha-der" class="flecha-der">
+					<i class="fas fa-angle-right"></i>
+				</button>
+			</div>
+
+
+	</main>
+	<!--JavaScript-->
+	<script src="js/main.js"></script>
+</body>
+</html>
